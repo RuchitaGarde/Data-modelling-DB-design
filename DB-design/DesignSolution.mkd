@@ -10,5 +10,6 @@
 - The relations dedicated to specific entities, eg: supply_orders, manuf_orders, cust_orders etc must contain the business entity specific to its type. For eg, the relation ManufUnitPricing must have an entity_id as its primary key which belongs to the type “manufacturer”. This ERD fails to make this consideration, and it completely rests on the data entry operator to take care of this.
 - In entity Ship_orders, the shipper, sender and recipient attributes have to belong to three different entities belonging to the correct type. This ERD does not take care of this.
 
+<img src="https://github.com/RuchitaGarde/Data-modelling-DB-design/blob/master/DB-design/Entity-Relationship-diagram.jpg" width="500px" height="350px"/>
 
 
