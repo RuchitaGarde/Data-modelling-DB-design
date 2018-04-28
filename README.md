@@ -1,13 +1,13 @@
 # Data modelling and Database Design
 
-## This repository contains documentation, media files and SQL files required to fully deign and implement an SQL database.
+### This repository contains documentation, media files and SQL files required to fully design and implement an SQL database.
 How to navigate this repository?
 - Please find below the problem statement and description of the requirements, as one might get from a client.
 - The `DB-design` folder contains a diagrammatic representation of the designed database, alongwith assumptions and constraints.
 - Then go to the `DB-implementation` folder where you will find SQL queries to implement your designed database.
 - Lastly, the `SQL-views` folder contains some complex SQL queries written to query the db, and answer some questions about the data.
 
-### To design a Supply Chain Information System (CSIP)
+## To design a Supply Chain Information System (CSIP)
 #### Requirements:
 - The CSIP is composed of suppliers, manufacturers, shippers and end-customers. Items of different kinds are being moved in the supply chain. Manufacturers use Items of materials to manufacture Items of products for customers. Suppliers supply Items of materials to manufacturers; they also supply Items directly to Customers. Shippers (e.g., UPS, Fedex etc) move items from one business entity (supplier, manufacturer, customer etc) to another.
 - Items have a unique id and weight. Every business entity (suppliers, manufacturers, customers etc.) is identified by its id, and has a shipping location (to be used by Shippers for shipping orders), address, phone, web location, and contact information.
